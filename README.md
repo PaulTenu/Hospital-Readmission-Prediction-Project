@@ -1,4 +1,4 @@
-# Hospital-Readmission-Prediction-Project
+# Hospital-Length-Of-Stay-Prediction-Model
 
 ## Objective
 To develop a predictive model that identifies patients at high risk of extended hospital stays (high Length of Stay - LOS) based on their demographic and clinical attributes. The goal is to enable proactive care, optimize resource allocation, and minimize readmission rates using a fully automated and scalable workflow with Power BI, Python, and SQL integration.
