@@ -23,7 +23,7 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 ## Python File
 - <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/PREDICTIVE%20MODEL%20FOR%20HEALTH%20CARE%20PROJECT.pbix">Power BI file</a>
 ## SQL File
-- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/PREDICTIVE%20MODEL%20FOR%20HEALTH%20CARE%20PROJECT.pbix">Power BI file</a>
+- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/SQLQuery1_Healthcare_Db.sql">SQL Db Query</a>
 
 
 ## Folder Structure
