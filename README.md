@@ -18,8 +18,13 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 - Patients trend
 - Treatment effectiveness
 - Department performance
-## Dashdoard File
-- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/Health_care_patient_Dataset.csv">Data set</a>
+## Dashboard File
+- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/PREDICTIVE%20MODEL%20FOR%20HEALTH%20CARE%20PROJECT.pbix">Power BI file</a>
+## Python File
+- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/PREDICTIVE%20MODEL%20FOR%20HEALTH%20CARE%20PROJECT.pbix">Power BI file</a>
+## SQL File
+- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/PREDICTIVE%20MODEL%20FOR%20HEALTH%20CARE%20PROJECT.pbix">Power BI file</a>
+
 
 ## Folder Structure
 
