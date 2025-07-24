@@ -12,12 +12,14 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 - Stored in SQL Server and connected to Power BI.
 
 ## Dataset Used
-- <a href = "https://github.com/PaulTenu/DSA-Project-Case-1-Amazon-Product-Review-Analysis/blob/main/DSA%20CAPSTONE%20PROJECT_QNS_1_EXCEL.xlsx">Data set</a>
+- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/Health_care_patient_Dataset.csv">Data set</a>
 
 ## Analysis Questions
 - Patients trend
 - Treatment effectiveness
 - Department performance
+## Dashdoard File
+- <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/Health_care_patient_Dataset.csv">Data set</a>
 
 ## Folder Structure
 
@@ -49,17 +51,9 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
    - Task Scheduler (Windows) runs the pipeline weekly.
 
 ## Model Info
-
 - **Algorithm**: Random Forest Classifier
 - **Target Variable**: Length of Stay (LOS)
 - **Features**: Age, Gender, Medication Adherence, Follow-up Appointment
-
-## Automation Setup
-
-### Scheduler (Windows Task Scheduler)
-- Python executable: `python.exe`
-- Script path: `scripts/prediction_pipeline.py`
-- Trigger: Daily or upon new file drop in `data/`
 
 ## Technologies Used
 - Power BI
@@ -67,25 +61,31 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 - SQL Server
 - Windows Task Scheduler
 
+## Prediction Dashboard Report Summmary
+The predictive model identified 4,597 patients (46% of the total population) at high risk for extended hospital stays. This substantial proportion underscores the critical importance of proactive intervention strategies. Analysis reveals that underlying medical conditions and medication non-adherence are primary drivers of prolonged hospitalizations.
+## Key Findings
+1. ### Gender Distribution: Male patients demonstrate a disproportionately higher likelihood of extended stays compared to female patients. While the high versus low length of stay (LOS) distribution appears relatively balanced within each gender group, the absolute volume of males predicted for high LOS significantly exceeds that of females, suggesting gender-specific risk factors warrant further investigation.
+2. **Primary Diagnosis Impact**: Among the analyzed conditions—injuries, respiratory disorders, cardiac problems, diabetes, and infections—clear patterns emerge:
+   - Highest Risk Conditions: Infections and diabetes show the greatest propensity for extended stays, with these diagnoses consistently associated with high LOS predictions
+   - Moderate Risk: Respiratory and cardiac conditions demonstrate intermediate risk profiles
+   - Lowest Risk: Injury-related admissions exhibit a comparatively higher proportion of low LOS predictions, likely reflecting more straightforward treatment pathways
+3. **Age-Related Trends**: Patient age demonstrates a strong correlation with predicted hospital stay duration:
+   - Ages 56+: Over 25% predicted for high LOS, reflecting age-related complications and slower recovery trajectories
+   - Ages 36-55: Notable but reduced percentage of high LOS predictions compared to older cohorts
+   - Ages 18-35: Lowest percentage of high LOS predictions, consistent with enhanced recovery capacity in younger populations
+4. **Medication Adherence Critical Factor**: The analysis reveals medication adherence as a paramount predictor of hospital stay duration. Patients with poor medication compliance demonstrate significantly elevated rates of high LOS predictions compared to adherent patients. This finding highlights medication management as a key intervention point for reducing hospital resource utilization.
 
+## Dashboards
+- ### General Dahsbord
+<img width="1249" height="727" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/8499194b-0892-40c0-9fa0-dc623bb4f2d4" />
 
+- ### Predictive Dashboard
+  <img width="1236" height="713" alt="Screenshot (198)" src="https://github.com/user-attachments/assets/9abaf324-0e18-40b9-b543-639bb2fb764b" />
 
-
-
-## Key Insights from Dashboard
-
-| Insight                 | Description                                                                                      |
-| ----------------------- | ------------------------------------------------------------------------------------------------ |
-| 🔴 High-Risk Patients   | X% of patients are predicted to have extended LOS. These can be prioritized for follow-up.       |
-| 👵 Age Factor           | Patients over 55 have the highest proportion of high LOS predictions.                            |
-| 💊 Medication Adherence | Poor adherence is strongly associated with longer hospital stays.                                |
-| 🏥 Department Load      | Certain departments show higher readmission and LOS rates (e.g., Cardiology, Internal Medicine). |
-| 📅 Appointment Gaps     | Missed or infrequent follow-up appointments correlate with higher LOS.                           |
-
-
-
-## Dashboard
-
-![Screenshot_Dashboard]
-
-
+## Strategic Implications
+These findings suggest targeted interventions focusing on:
+- Enhanced medication adherence programs
+- Age-specific care protocols for patients 56+
+- Specialized management pathways for infection and diabetes cases
+- Gender-specific risk assessment protocols
+The 46% high-risk population represents both a significant challenge and opportunity for healthcare resource optimization through predictive intervention strategies.
