@@ -11,6 +11,14 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 - Python-generated Predicted_Output.csv – Contains prediction results.
 - Stored in SQL Server and connected to Power BI.
 
+## Dataset Used
+- <a href = "https://github.com/PaulTenu/DSA-Project-Case-1-Amazon-Product-Review-Analysis/blob/main/DSA%20CAPSTONE%20PROJECT_QNS_1_EXCEL.xlsx">Data set</a>
+
+## Analysis Questions
+- Patients trend
+- Treatment effectiveness
+- Department performance
+
 ## Folder Structure
 
 | Folder        | Purpose                                     |
@@ -53,21 +61,6 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 - Script path: `scripts/prediction_pipeline.py`
 - Trigger: Daily or upon new file drop in `data/`
 
-## Setup Instructions
-### 1. Clone the Repo
-git clone https://github.com/your-username/hospital-readmission-prediction.git
-
-## 2. Install requirements:
-pip install -r requirements.txt
-
-## 3. Run the prediction pipeline:
-python scripts/predict_los.py
-
-## 4. Upload to DB:
-python scripts/upload_to_db.py
-
-## 5. Refresh Power BI dashboard to see updates.
-
 ## Technologies Used
 - Power BI
 - Python (pandas, sklearn, sqlalchemy)
@@ -91,6 +84,8 @@ python scripts/upload_to_db.py
 
 
 
+## Dashboard
 
+![Screenshot_Dashboard]
 
 
