@@ -14,7 +14,7 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 ## Dataset Used
 - <a href = "https://github.com/PaulTenu/Hospital-Readmission-Prediction-Project/blob/main/Health_care_patient_Dataset.csv">Data set</a>
 
-## Analysis Questions
+## Areas Analysis was performed 
 - Patients trend
 - Treatment effectiveness
 - Department performance
