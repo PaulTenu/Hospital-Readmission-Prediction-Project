@@ -13,8 +13,8 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 
 ## Folder Structure
 
-| Folder        | Purpose                                      |
-|---------------|----------------------------------------------|
+| Folder        | Purpose                                     |
+|---------------|---------------------------------------------|
 | `data/`       | Raw and predicted datasets                  |
 | `scripts/`    | Python scripts for prediction and DB load   |
 | `logs/`       | Execution logs and error reports            |
@@ -46,12 +46,9 @@ Hospital overcrowding and resource strain often stem from unanticipated long pat
 - **Target Variable**: Length of Stay (LOS)
 - **Features**: Age, Gender, Medication Adherence, Follow-up Appointment
 
-
-
-## 🚀 Automation Setup
+## Automation Setup
 
 ### Scheduler (Windows Task Scheduler)
-
 - Python executable: `python.exe`
 - Script path: `scripts/prediction_pipeline.py`
 - Trigger: Daily or upon new file drop in `data/`
@@ -70,6 +67,16 @@ python scripts/predict_los.py
 python scripts/upload_to_db.py
 
 ## 5. Refresh Power BI dashboard to see updates.
+
+## Technologies Used
+- Power BI
+- Python (pandas, sklearn, sqlalchemy)
+- SQL Server
+- Windows Task Scheduler
+
+
+
+
 
 
 ## Key Insights from Dashboard
